@@ -58,6 +58,8 @@ We need to set a base URL. The `type` of the request is `GET` by default, and th
 			type: 'GET',
 			
 			// the type of reply (jsonp by default)
+			// other values can be: xml, json, text.
+			// see dataType documentation at http://api.jquery.com/jQuery.ajax/
 			dataType: 'jsonp',
 		
 			// the URL (or base URL) for the service
